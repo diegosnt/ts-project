@@ -9,11 +9,11 @@
   console.log('customerAge', customerAge);
 
   let producInStock: number;
-  console.log('producInStock', producInStock);
+//console.log('producInStock', producInStock);
 
-  if (producInStock > 10) {
-    console.log('is greater');
-  }
+  //if (producInStock > 10) {
+  //  console.log('is greater');
+ // }
 
   let discont = parseInt('100');
   console.log('discont', discont);
@@ -25,9 +25,9 @@
   }
 
   let hex = 0xfff;
-  console.log('hex', hex);
+  console.log('hex:', hex);
   let bin = 0b01010;
-  console.log('bin',bin);
+  console.log('bin:',bin);
 
   const myNumber: number = 10;
 

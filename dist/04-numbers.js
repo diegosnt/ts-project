@@ -8,10 +8,10 @@
     customerAge = customerAge + 1;
     console.log('customerAge', customerAge);
     let producInStock;
-    console.log('producInStock', producInStock);
-    if (producInStock > 10) {
-        console.log('is greater');
-    }
+    //console.log('producInStock', producInStock);
+    //if (producInStock > 10) {
+    //  console.log('is greater');
+    // }
     let discont = parseInt('100');
     console.log('discont', discont);
     if (discont <= 200) {
@@ -21,8 +21,8 @@
         console.log('not apply');
     }
     let hex = 0xfff;
-    console.log('hex', hex);
+    console.log('hex:', hex);
     let bin = 0b01010;
-    console.log('bin', bin);
+    console.log('bin:', bin);
     const myNumber = 10;
 })();
